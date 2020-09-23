@@ -1,0 +1,14 @@
+#main-header {
+    color: yellow;
+}
+
+.color-red { 
+    color: red; 
+    opacity: .5;
+}
+
+/* this is the color for my paragraph text */
+p { 
+    color: violet; 
+    background-color: black; 
+}
