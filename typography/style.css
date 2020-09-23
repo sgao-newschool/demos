@@ -1,0 +1,17 @@
+
+:root {
+    font-size: 20px;
+}
+
+p {
+   font-size: 5vw;
+   font-weight: bold;
+   font-style: italic;
+   text-decoration: underline;
+   line-height: 100px;
+   text-align: center;
+}
+
+p span {
+    font-size: .5rem;
+}
