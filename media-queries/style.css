@@ -1,0 +1,34 @@
+section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div {
+    background: hsl(120, 50%, 72%);
+    flex-basis: 25%;
+    height: 250px;
+    border: 10px solid white;
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width: 700px) {
+    div {
+        flex-basis: 50%;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    div {
+        flex-basis: 100%;
+    }
+}
+
+/* iPhone X Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+    div {
+        background: red;
+    }
+}
