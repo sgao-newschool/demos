@@ -1,0 +1,29 @@
+#nametag {
+    width: 60vw;
+    height: 80vh;
+    background: grey;
+    margin: 0 auto;
+    position: relative; 
+}
+
+.square {
+    width: 50%;
+    height: 50%;
+    background: pink;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    background: green;
+    border-radius: 100%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+h1 {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
