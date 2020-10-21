@@ -99,3 +99,61 @@ aside li div {
     background: pink;
 }
 
+/* Tablet */
+@media (max-width: 1024px) {
+   
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+
+    #search-bar {
+        display: none;
+    }
+
+    aside {
+        flex-basis: 10%;
+    }
+
+    aside li {
+        padding: 10px;
+    }
+
+    aside li div {
+        height: 40px;
+    }
+
+    #video-grid {
+        flex-basis: 90%;
+        padding: 10px;
+    }
+
+    .video-category {
+        margin-top: 20px;
+        padding: 10px;
+    }
+
+    .video-category ul {
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 10px;
+        row-gap: 10px;
+    }
+}
+
+@media (max-width: 400px) {
+    aside {
+        display: none;
+    }
+
+    #video-grid {
+        flex-basis: 100%;
+    }
+
+    .video-category ul {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+
+
+
