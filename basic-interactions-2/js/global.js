@@ -36,9 +36,7 @@ window.addEventListener("load", function() {
         myStr = myStr + '!!!!';
         myTextElement.textContent = myStr;   
     }
-    
 
-    //executing a function
     updateText(myText);
 
 
