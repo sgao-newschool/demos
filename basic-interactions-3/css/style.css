@@ -1,0 +1,32 @@
+body {
+    width: 100vh;
+    height: 100vw;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#track-clicks {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+}
+
+#image-container {
+    width: 150px;
+    position: absolute;
+}
+
+#image-container img {
+    width: 100%;
+    display: block;
+    position: absolute;
+}
+
+#mouse {
+    opacity: 0;
+}
+
+#cat {
+    opacity: 0;
+}
