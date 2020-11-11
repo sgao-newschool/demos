@@ -6,10 +6,12 @@ window.addEventListener("load", function() {
     droparea.addEventListener('dragover', allowDrop);
     draggable.addEventListener('dragstart', drag);    
 
+    //specifies where the dragged data can be dropped.
+    //By default, data/elements cannot be dropped in other elements. To allow a drop, we must prevent the default handling of the element.
     function allowDrop(e) {
-      e.preventDefault();
+      e.preventDefault(); //prevent the default functionality from executing
     }
-      
+    
     function drag(e) {
       e.dataTransfer.setData("text", e.target.id);
     }
