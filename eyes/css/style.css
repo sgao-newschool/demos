@@ -1,0 +1,29 @@
+body{
+    width: 100vw;
+    height: 100vh;
+  }
+  .eyes-container {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+  }
+
+  .eye {
+    position: relative;
+    display: inline-block;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    background: #CCC;
+  }
+  .eye:after { /*pupil*/
+    position: absolute;
+    bottom: 17px;
+    right: 10px;
+    width: 10px;
+    height: 10px;
+    background: #000;
+    border-radius: 50%;
+    content: " ";
+  }
