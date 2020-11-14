@@ -1,0 +1,19 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+}
+
+.square {
+    background: aliceblue;
+    /* border: 1px solid black; */
+    box-sizing: border-box;
+    height: 30px;
+}
+
+.square:not(.dark-blue):hover {
+    background-color: orange;
+}
+
+.dark-blue {
+    background-color: rgb(9, 51, 201);
+}
