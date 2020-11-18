@@ -1,0 +1,89 @@
+section {
+    padding: 50px 20px;
+    border-bottom: 1px solid grey;
+}
+
+p {
+    font-size: 1rem;
+    font-family: Arial, sans-serif;
+    font-weight: normal;
+}
+
+.image-container {
+    width: 300px;
+}
+
+.image-container img {
+    width: 100%;
+    display: block;
+}
+
+#png {
+    background: #eaeaa7;
+}
+
+#webp {
+    width: 100%;
+}
+
+.retina {
+    display: inline-block;
+    margin-right: 50px;
+}
+
+button {
+    border-radius: 5px;
+    display: inline-block;
+    padding: 10px 30px;
+    border: 0;
+    background: linear-gradient(to bottom, #fcecfc 0%,#fba6e1 50%,#fd89d7 51%,#ff7cd8 100%); 
+    vertical-align: top;
+}
+
+.background {
+    background: #c8ecde;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    margin-left: 20px;
+    vertical-align: top;
+}
+
+.image-reuse-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-reuse {
+    background-image: url(../images/data_gov.jpg);
+    display: inline-block;
+    background-repeat: no-repeat;
+}
+
+.image-reuse:nth-child(1) {
+    background-size: cover;
+    background-position: center center;
+    flex-basis: 40%;
+    height: 400px;
+}
+
+.image-reuse:nth-child(2) {
+    background-size: 100%;
+    background-position: left top;
+    flex-basis: 25%;
+    height: 200px;
+}
+
+.image-reuse:nth-child(2) {
+    background-size: 100%;
+    background-position: left top;
+    flex-basis: 25%;
+    height: 200px;
+}
+
+.image-reuse:nth-child(3) {
+    background-size: contain;
+    background-position: 20px 100px;
+    flex-basis: 25%;
+    height: 200px;
+}

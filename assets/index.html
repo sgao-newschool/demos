@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+        <title>Generating assets</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+   
+    <body>
+        <section>
+            <h1>Don't use an image if you don't have to!</h1>
+            <button>I'm CSS only</button>
+
+            <div class="background"></div>
+            
+        </section>
+
+        <section>
+            <h1>Or reuse the same image</button>
+            <p>You can show different parts of a background image using background-size & background-position</p>
+            <div class="image-reuse-container">
+                <div class="image-reuse"></div>
+                <div class="image-reuse"></div>
+                <div class="image-reuse"></div>
+            </div>
+            
+        </section>
+
+        <section>
+            <h1>SVG (Scalable Vector Graphics)</h1>
+            <div class="image-container" id="svg">
+                <img src="images/bike-lady.svg" />
+            </div>
+        </section>
+
+        <section>
+            <h1>JPG</h1>
+            <div class="image-container" id="jpg">
+                <img src="images/small.jpg" />
+            </div>
+        </section>
+
+        <section>
+            <h1>PNG</h1>
+            <div class="image-container" id="png">
+                <img src="images/img_3.png" />
+            </div>
+        </section>
+
+        <section>
+            <h1>GIF</h1>
+            <div class="image-container" id="gif">
+                <img src="https://media.giphy.com/media/57DX612XYgQKI/giphy.gif" />
+            </div>
+        </section>
+
+        <section>
+            <h1>WEBP</h1>
+            <div class="image-container" id="webp">
+                <img src="images/webp.webp" />
+            </div>
+        </section>
+
+        <section>
+            <h1>Retina screens</h1>
+
+            <div class="retina">
+                <p>300px width container with image at 300px</p>
+                <div class="image-container" id="no-retina">
+                    <img src="images/no-retina.jpg" />
+                </div>
+            </div>
+            <div class="retina">
+                <p>300px width container with image at 600px</p>
+                <div class="image-container" id="retina">
+                    <img src="images/retina.jpg" />
+                </div>
+
+            </div>
+        </section>
+    </body>
+</html>
