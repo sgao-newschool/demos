@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+}
+ul,
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    border: 0;
+    padding: 0;
+    background: transparent;
+    text-decoration: underline;
+}
+
+#carousel-list {
+    margin: auto;
+    width: 60vw;
+    position: relative;
+    height: 40vw;
+    background: pink;
+}
+
+#carousel-list img {
+    width: 100%;
+}
+
+#carousel-list li {
+    position: absolute;
+    width: 100%;
+    opacity: 0;
+    transition: opacity .5s ease-out;
+}
+
+#carousel-controls {
+    margin: 15px auto 0;
+    width: 60vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+#carousel-list li:nth-child(1) {
+    opacity: 1;
+}
